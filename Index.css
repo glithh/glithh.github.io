@@ -1,0 +1,56 @@
+header{
+    display:flex;
+    justify-content: space-between;
+    background-color: #3ae374;
+    border-bottom: 10px solid #4b4b4b;
+    padding-left:20px;
+    padding-right:20px;
+    margin:0;
+
+}
+  
+h1{
+    Display:flex;
+    font-family:'Press Start 2P';
+    color: #fff;
+    text-shadow: 5px 5px 0 #4b4b4b;  
+    align-items: center;   
+
+
+}   
+nav{
+    text-align:right;
+}
+a{
+    Display:inline-flex;
+    color:white;
+    font-size: 20px;
+    font-family: "fira code";
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+a::before{
+    content:"";
+    background-color:#c56cf0;
+    Width:10px;
+    height:10px;
+    margin:10px;
+}
+
+#button{
+    display:inline-block;
+    background-color: #c56cf0;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 #4b4b4b;
+    margin:0;
+    transition: transform 100ms cubic-bezier(.42,0,.06,2);
+}
+
+#button:hover{
+    transform: scale(1.1);
+}
